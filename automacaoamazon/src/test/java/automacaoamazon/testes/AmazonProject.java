@@ -1,14 +1,10 @@
 package automacaoamazon.testes;
 
 import static org.junit.Assert.*;
-
-import java.util.concurrent.TimeUnit;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -73,35 +69,8 @@ public class AmazonProject {
 		 Thread.sleep(6000);
 		 driver.findElement(By.xpath("//*[@id='addressChangeLinkId']")).click();
 		 Thread.sleep(6000);
-		 
-		/* public static void clickElementByJs(WebElement element; WebDriver driver)
-		 {	 
-			 JavascriptExecutor executor = ((JavascriptExecutor)driver);
-			 executor.executeScript("arguments[0].click();",element);
-		 }
-
-		 WebElement buttomUseThisAddress = driver.findElement(By.xpath("//input['@data-testid='Address_selectShipToThisAddress']"));
-		 
-		 clickElementByJs(buttomUseThisAddress,driver);
-		 
-		 */
-		 
-		 
-		 
-		 
-		 //executor.executeScript("document.getElementById('addressChangeLinkId').click()");
-		 
-		 //driver.findElement(By.xpath("//*[@id='payChangeButtonId']")).click();
+		}
 		
+		}
 		 
-		 
-			 	
-		 
-	}
-
-	//private void clickElementByJs(WebElement buttomUseThisAddress, WebDriver driver2) {
-		// TODO Auto-generated method stub
-		
-	}
-
 
